@@ -8,9 +8,12 @@
 </head>
 <body>
     <div id="root"></div>
+    <div id="root2"></div>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+
         // var example = "<h1>Hello React! How Are You?</h1>"
         // var root = document.querySelector("#root");
         // root.innerHTML = example;
@@ -18,6 +21,14 @@
         var example = React.createElement('h1', null, 'Hello React! How Are You?');
         var root = ReactDOM.createRoot(document.getElementById("root"));
         root.render(example);
+
+        var example2 =  <div>
+                            <h2>Hello React and Babel! How Are You?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eius repellendus repudiandae beatae exercitationem laudantium debitis impedit.</p> 
+                        </div>;
+        var root2 = ReactDOM.createRoot(document.getElementById("root2"));
+        root2.render(example2);
+
     </script>
 </body>
 </html>
