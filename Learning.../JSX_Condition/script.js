@@ -70,10 +70,42 @@ function addProduct(event, planet) {
   renderApp();
 }
 
+function saveProduct(event) {
+  event.preventDefault();
+  var temperature = event.target.elements.temperature.value;
+  var planet = event.target.elements.planet.value;
+  var flue = event.target.elements.flue.value;
+  var planet = {
+    temperature: temperature,
+    planet: planet,
+    fuel: flue,
+  };
+  features.push(planet);
+  event.target.elements.temperature.value = "";
+  event.target.elements.planet.value = "";
+  event.target.elements.flue.value = "";
+  renderApp();
+}
+
 function renderApp() {
   var template = (
     <div id="container">
       <h3 id="head">Başarılı İniş: {selectedProducts.length}</h3>
+      <form onSubmit={saveProduct}>
+        <div>
+          <span>temperature: </span>
+          <input type="text" name="temperature" id="temperature" />
+        </div>
+        <div>
+          <span>planet: </span>
+          <input type="text" name="planet" id="planet" />
+        </div>
+        <div>
+          <span>flue: </span>
+          <input type="text" name="flue" id="flue" />
+        </div>
+        <button type="submit">İniş Yapılacak Gezegen Ekle</button>
+      </form>
       {features.map((planets, index) => (
         <div id="flex">
           <h3>{features[index].planet}</h3>
