@@ -4,7 +4,7 @@ class Template extends React.Component {
   render() {
     const data = {
       header: "TodoAPP",
-      todolist: ["Data1", "Data2", "Data3", "Data4"],
+      todolist: ["Data1", "Data2", "Data3", "Data4", "Data5"],
       button: "Görev Ekle",
       textbox:
         "lkjrfglskedjgkılndkfgopemıowljeıoejnrkljowqelrkjıewtserfgkljdfgjsdkfg",
