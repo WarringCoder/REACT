@@ -40,7 +40,7 @@ class TodoListAPP extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="Container">
         <Header />
         <TaskList
           task={this.state.görevler}
@@ -120,7 +120,7 @@ class Task extends React.Component
         return (
           <div className="task">
             <li>
-              <input type="checkbox" />
+              <input className="checkbox"type="checkbox" />
               <p>{this.props.task}</p>
             </li>
             <div className="border-bottom"></div>

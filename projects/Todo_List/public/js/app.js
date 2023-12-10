@@ -63,7 +63,9 @@ var TodoListAPP = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Header, null), /*#__PURE__*/React.createElement(TaskList, {
+      return /*#__PURE__*/React.createElement("div", {
+        className: "Container"
+      }, /*#__PURE__*/React.createElement(Header, null), /*#__PURE__*/React.createElement(TaskList, {
         task: this.state.görevler,
         clear: this.clearFullTask,
         deleteTask: this.deleteTask
@@ -153,6 +155,7 @@ var Task = /*#__PURE__*/function (_React$Component4) {
       return /*#__PURE__*/React.createElement("div", {
         className: "task"
       }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("input", {
+        className: "checkbox",
         type: "checkbox"
       }), /*#__PURE__*/React.createElement("p", null, this.props.task)), /*#__PURE__*/React.createElement("div", {
         className: "border-bottom"
