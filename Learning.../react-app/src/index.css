@@ -1,0 +1,170 @@
+/*
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+:root
+{
+    --color1 : #A25772;
+    --color2 : #9EB8D9;
+    --color3 : #EEF5FF;
+    --color4 : #BED754;
+}
+
+body
+{
+    background-color: var(--color1);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-layout
+{
+    margin: 1rem 3rem;
+}
+
+.main-layout header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color3);
+}
+
+.main-layout header h1
+{
+    border-bottom: solid 0.2rem #BED754;
+    padding: 0 0.4rem;
+}
+
+.main-layout header nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    transition: 0.2s;
+}
+
+.main-layout header nav a
+{
+    text-decoration: none;
+    color: var(--color3);
+    padding: 0.4rem 1.5rem;
+    transition: 0.2s;
+}
+
+
+.active
+{
+    background-color: var(--color4);
+    border-radius: 0.2rem;
+    color: rgb(0, 0, 0) !important;
+     border-bottom: none !important;
+    padding: 0.4rem 1.5rem !important;
+    transition: 0.2s;
+}
+
+main
+{
+    background-color: rgba(0, 0, 0, 0.114);
+    padding: 2.4rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+   
+}
+
+.HeaderHaelp main
+{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+}
+
+.HeaderHaelp nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    transition: 0.2s;
+}
+
+.HeaderHaelp nav a
+{
+    text-decoration: none;
+    color: var(--color3);
+    padding: 0.4rem 1.5rem;
+    transition: 0.2s;
+    margin-top: 2.6rem;
+    border: 0.04rem solid var(--color4);
+}
+
+.Faq-p-Container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 0.9rem;
+}
+
+.Faq-p-Container p
+{
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 1rem;
+    margin: 0;
+}
+
+.ContactContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactContainer form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ContactContainer form :nth-child(1)
+{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.ContactContainer form input
+{
+    width: 20rem;
+    height: 2rem;
+}
+
+.ContactContainer form :nth-child(3)
+{
+    height: 4rem;
+}
+
+.ContactContainer form :nth-child(4)
+{
+    padding: 0.35rem 1.4rem;
+    background-color: var(--color4);
+    opacity: 0.92;
+    color: black;
+font-family: 'Fira Sans', sans-serif;
+border: 0.01rem solid black;
+border-radius: 0.3rem;
+}
+
+.ContactContainer form :nth-child(4):hover
+{
+    opacity: 0.6;
+}
