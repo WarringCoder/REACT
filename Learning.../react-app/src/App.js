@@ -10,10 +10,13 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Help/Contact";
 import { Faq } from "./pages/Help/Faq";
+import { Users, usersLoader } from "./pages/Users";
+import { UserDetails, userDetailsLoader } from "./pages/UserDetails";
 
 // Layout
 import { MainLayout } from "./layouts/MainLayout";
 import { HelpLayout } from "./layouts/Helplayout";
+import { UsersLayout } from "./layouts/UsersLayout";
 
 const router = createBrowserRouter([
   {
@@ -30,9 +33,19 @@ const router = createBrowserRouter([
           {path: "contact", element: <Contact />},
           {path: "faq", element: <Faq />}
         ]
-      }
-    ],
-  },
+      },
+      { 
+        path: 'users',  
+        element: <UsersLayout />, 
+        children: [
+          { index:true, element: <Users/>, loader: usersLoader},
+          { path: ':userid', element: <UserDetails/>, loader: userDetailsLoader}
+        ]
+        
+      },
+      
+    ]
+  }
 ]);
 
 function App() {

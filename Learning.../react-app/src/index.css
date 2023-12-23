@@ -168,3 +168,52 @@ border-radius: 0.3rem;
 {
     opacity: 0.6;
 }
+
+.ContentContainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.32);
+    margin: 0.43rem;
+    padding: 0.7rem 1.7rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.ContentContainer :nth-child(1)
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.ContentContainer :nth-child(2)
+{
+    color: var(--color4);
+    text-decoration: none;
+    box-shadow: 0 0 1rem var(--color4);
+}
+
+.UsersDetails ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.UsersDetails li
+{
+    list-style: none;
+
+    
+}
+
+.UsersDetails li i
+{
+    margin-right: 1rem;
+}
