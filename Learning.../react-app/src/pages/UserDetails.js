@@ -7,22 +7,26 @@ export const UserDetails = () => {
       <ul>
         <li>
           <i class="fa-solid fa-user"></i>
-          {user.username}
+          <span>{user.username}</span>
         </li>
         <li>
           <i class="fa-solid fa-envelope"></i>
-          {user.email}
+          <span>{user.email}</span>
         </li>
         <li>
           <i class="fa-solid fa-mobile"></i>
-          {user.phone}
+          <span>{user.phone}</span>
         </li>
         <li>
           <i class="fa-solid fa-building"></i>
-          {user.company.name} / {user.address.city}
+          <span>
+            {user.company.name} / {user.address.city}
+          </span>
         </li>
       </ul>
-      <Link to="/users">Back To List</Link>
+      <span className="backlink">
+        <Link to="/users">Back To List</Link>
+      </span>
     </div>
   );
 };
