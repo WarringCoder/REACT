@@ -1,4 +1,4 @@
-import { useLoaderData, Link } from "react-router-dom";
+import { useLoaderData, Link, } from "react-router-dom";
 
 export const UserDetails = () => {
   const user = useLoaderData();
@@ -6,19 +6,19 @@ export const UserDetails = () => {
     <div className="UsersDetails">
       <ul>
         <li>
-          <i class="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user"></i>
           <span>{user.username}</span>
         </li>
         <li>
-          <i class="fa-solid fa-envelope"></i>
+          <i className="fa-solid fa-envelope"></i>
           <span>{user.email}</span>
         </li>
         <li>
-          <i class="fa-solid fa-mobile"></i>
+          <i className="fa-solid fa-mobile"></i>
           <span>{user.phone}</span>
         </li>
         <li>
-          <i class="fa-solid fa-building"></i>
+          <i className="fa-solid fa-building"></i>
           <span>
             {user.company.name} / {user.address.city}
           </span>
@@ -36,5 +36,8 @@ export const userDetailsLoader = async ({ params }) => {
   const res = await fetch(
     "https://jsonplaceholder.typicode.com/users/" + userid
   );
+  if (res.status === 404) {
+    throw new Response("Kaynak bulunamadı", { status: 404 });
+  }
   return res.json();
 };
