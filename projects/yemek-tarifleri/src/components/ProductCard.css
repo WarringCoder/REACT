@@ -1,0 +1,80 @@
+/*
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+*/
+
+.full-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    margin-top: 4rem;
+    background-color: #F5F7F8;
+    box-shadow: 0 0 1rem  #45474B;
+    border-radius: 0.4rem;
+}
+
+.card-container :nth-child(1) img
+{
+    width: 16rem;
+    height: 13rem;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+.card-container :nth-child(1) p
+{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-container :nth-child(2) p
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0.9;
+    font-size: 0.9rem;
+    padding: 1rem 0.9rem;
+}
+
+.card-container :nth-child(3)
+{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.card-container :nth-child(3) a
+{
+    text-decoration: none;
+    color: #F5F7F8;
+    font-size: 0.9rem; 
+    padding: 0.3rem 1.1rem;
+    background-color: #495E57;
+    font-family: 'Poppins', sans-serif;
+    border: 0.14rem solid #495E57;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+}
+
+.card-container :nth-child(3) a:hover 
+{
+    border: 0.14rem solid #495E57;
+    background-color: inherit;
+    color: #495E57;
+}
