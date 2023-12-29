@@ -3,8 +3,8 @@
         {
             "id": "1",
             "baslik": "Etliekmek",
-            "resim": "1.jpeg",
-            "aciklama": "Dunyanın en iyi yemeği burda. Konyanın medarı iftiharı Etlikekmek",
+            "resim": "3.jpeg",
+            "aciklama": "Dunyanın en iyi yemeği burda. Konyanın medarı iftiharı Etlikekmek.",
             "malzemeler": [
                 "500 gram kıyma",
                 "1 çay kaşığı tuz",
@@ -17,9 +17,9 @@
         },
         {
           "id": "2",
-          "baslik": "Karnıyarık Yemeği",
+          "baslik": "Kadayıflı Muhallebi",
           "resim": "2.jpeg",
-          "aciklama": "Dunyanın en iyi yemeği burda. Konyanın medarı iftiharı Etlikekmek",
+          "aciklama": "Kızartılmış kadayıfla muhallebinin tadına hiç baktın mı?",
           "malzemeler": [
             "6 adet küçük boy patlıcan",
             "3 adet sivri biber",
@@ -32,9 +32,9 @@
         },
         {
           "id": "3",
-          "baslik": "Tavuklu Sultan Kebabı",
-          "resim": "3.jpeg",
-          "aciklama": "Dunyanın en iyi yemeği burda. Konyanın medarı iftiharı Etlikekmek",
+          "baslik": "Bamya Çorbası",
+          "resim": "1.jpeg",
+          "aciklama": "Konyanın destansı çorbasını yapmak için daha ne baklersin",
           "malzemeler": [
             "2 adet yufka",
             "400g tavuk göğsü",

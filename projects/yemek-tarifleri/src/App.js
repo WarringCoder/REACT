@@ -4,7 +4,7 @@ import { createBrowserRouter ,RouterProvider } from 'react-router-dom';
 // paces
 import Home from './pages/home/home';
 import Create from './pages/create/create';
-import Details from './pages/details/details';
+import Details from './pages/details/Details';
 import Search from './pages/search/search';
 
 // layouts
@@ -16,8 +16,9 @@ const routes = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: "/", element: <Home /> },
+      { path:"/tarifler", element: <Home/>},
       { path: "/create", element: <Create /> },
-      { path: "/details/id:", element: <Details /> },
+      { path: "/tarifler/:id", element: <Details /> },
       { path: "/search", element: <Search /> },
     ],
   },

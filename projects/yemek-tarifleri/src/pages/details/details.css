@@ -1,0 +1,37 @@
+.col-12 a
+{
+    text-decoration: none;
+    color: #F5F7F8;
+    font-size: 0.9rem; 
+    padding: 0.3rem 1.1rem;
+    background-color: #495E57;
+    font-family: 'Poppins', sans-serif;
+    border: 0.14rem solid #495E57;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+}
+
+.col-12 a:hover
+{
+    border: 0.14rem solid #495E57;
+    background-color: inherit;
+    color: #495E57;
+}
+
+.col-4 img
+{
+   height: 100%;
+   width: 100%;
+} 
+
+.container
+{
+    margin: auto !important;
+}
+
+.col-8 ul
+{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
