@@ -6,10 +6,13 @@ import "./Details.css";
 function Details() {
   const {id} = useParams();
   const url = "http://localhost:3000/tarifler/" + id;
-  const {data: tarif} = useFetch(url);
+  const {data: tarif, isLoading, error} = useFetch(url);
 
   return (
+    
     <div className="container row mt-3">
+      {isLoading && <div className="alert alert-warning w-100">Yükleniyor...</div>}
+      { error && <div className='alert alert-danger'>{ error }</div>}
       {tarif && (
         <>
           <div className="col-4">
@@ -30,7 +33,7 @@ function Details() {
           </div>
           <div className="col-12 mt-3">
             <p>{tarif.hazirlanisi}</p>
-            <a href={tarif.url} className="">
+            <a href={tarif.url} >
               Tarifi İncele
             </a>
           </div>

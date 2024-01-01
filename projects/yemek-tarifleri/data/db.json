@@ -1,49 +1,91 @@
 {
-    "tarifler": [
-        {
-            "id": "1",
-            "baslik": "Etliekmek",
-            "resim": "3.jpeg",
-            "aciklama": "Dunyanın en iyi yemeği burda. Konyanın medarı iftiharı Etlikekmek.",
-            "malzemeler": [
-                "500 gram kıyma",
-                "1 çay kaşığı tuz",
-                "Yarım çay kaşığı karabiber",
-                "3 adet patlıcan",
-                "3 adet patates"
-            ],
-            "hazirlanisi": "Patlıcanların kabuklarını alacalı olarak soyalım ve yarım parmak genişliğinde dilimleyelim.Ardından su dolu kabın içerisine tuz ekleyip karıştıralım ve patlıcanları acısının çıkması için suya alarak 20 dakika bekletelim. Kabuklarını soyduğumuz soğanları da daire şeklinde dilimleyelim.",
-            "url": "https://www.nefisyemektarifleri.com/video/halka-kebabi/"            
-        },
-        {
-          "id": "2",
-          "baslik": "Kadayıflı Muhallebi",
-          "resim": "2.jpeg",
-          "aciklama": "Kızartılmış kadayıfla muhallebinin tadına hiç baktın mı?",
-          "malzemeler": [
-            "6 adet küçük boy patlıcan",
-            "3 adet sivri biber",
-            "2 adet orta boy soğan",
-            "2 adet domates",
-            "2 adet sivri biber"
-          ],
-          "hazirlanisi": "Patlıcanları çizgili soyup, yarım saat yağ çekmemesi için tuzlu suda bekletin.İyice yıkadıktan sonra suyunu havlu ile çektirin ve az yağda kızartın. 3 adet biberi de yağda kızartın.Daha sonra aynı tavada doğranmış soğanları kavurun, kıymayı ekleyerek bir müddet daha kavurun ve biberleri, sarımsağı ekleyerek 2 dakika daha kavurun.",
-          "url": "https://www.nefisyemektarifleri.com/video/karniyarik-yemegi-videosu/"
-        },
-        {
-          "id": "3",
-          "baslik": "Bamya Çorbası",
-          "resim": "1.jpeg",
-          "aciklama": "Konyanın destansı çorbasını yapmak için daha ne baklersin",
-          "malzemeler": [
-            "2 adet yufka",
-            "400g tavuk göğsü",
-            "400g tavuk pirzola",
-            "1 adet kuru soğan",
-            "1 yemek kaşığı domates salçası"
-          ],
-          "hazirlanisi": "Patlıcanı alacalı soyarak küçük küçük doğrayın ve sıvı yağ ile kızartın.Süzgece alarak yağının süzmesi bekleyin bu arada tavukları soteleyin.Tavukları kuş başı doğrayın, tencereye alarak arada karıştırarak pişirin.Rengi dönüp suyunu saldığında yemeklik doğranmış soğanı ekleyin.",
-          "url": "https://www.nefisyemektarifleri.com/tavuklu-sultan-kebabi-tarifi/"
-        }
-    ]
+  "tarifler": [
+    {
+      "id": "1",
+      "baslik": "Etliekmek",
+      "resim": "3.jpeg",
+      "aciklama": "Dunyanın en iyi yemeği burda. Konyanın medarı iftiharı Etlikekmek.",
+      "malzemeler": [
+        "500 gram kıyma",
+        "1 çay kaşığı tuz",
+        "Yarım çay kaşığı karabiber",
+        "3 adet patlıcan",
+        "3 adet patates"
+      ],
+      "hazirlanisi": "Patlıcanların kabuklarını alacalı olarak soyalım ve yarım parmak genişliğinde dilimleyelim.Ardından su dolu kabın içerisine tuz ekleyip karıştıralım ve patlıcanları acısının çıkması için suya alarak 20 dakika bekletelim. Kabuklarını soyduğumuz soğanları da daire şeklinde dilimleyelim.",
+      "url": "https://www.nefisyemektarifleri.com/video/halka-kebabi/"
+    },
+    {
+      "id": "2",
+      "baslik": "Kadayıflı Muhallebi",
+      "resim": "2.jpeg",
+      "aciklama": "Kızartılmış kadayıfla muhallebinin tadına hiç baktın mı?",
+      "malzemeler": [
+        "6 adet küçük boy patlıcan",
+        "3 adet sivri biber",
+        "2 adet orta boy soğan",
+        "2 adet domates",
+        "2 adet sivri biber"
+      ],
+      "hazirlanisi": "Patlıcanları çizgili soyup, yarım saat yağ çekmemesi için tuzlu suda bekletin.İyice yıkadıktan sonra suyunu havlu ile çektirin ve az yağda kızartın. 3 adet biberi de yağda kızartın.Daha sonra aynı tavada doğranmış soğanları kavurun, kıymayı ekleyerek bir müddet daha kavurun ve biberleri, sarımsağı ekleyerek 2 dakika daha kavurun.",
+      "url": "https://www.nefisyemektarifleri.com/video/karniyarik-yemegi-videosu/"
+    },
+    {
+      "id": "3",
+      "baslik": "Bamya Çorbası",
+      "resim": "1.jpeg",
+      "aciklama": "Konyanın destansı çorbasını yapmak için daha ne baklersin",
+      "malzemeler": [
+        "2 adet yufka",
+        "400g tavuk göğsü",
+        "400g tavuk pirzola",
+        "1 adet kuru soğan",
+        "1 yemek kaşığı domates salçası"
+      ],
+      "hazirlanisi": "Patlıcanı alacalı soyarak küçük küçük doğrayın ve sıvı yağ ile kızartın.Süzgece alarak yağının süzmesi bekleyin bu arada tavukları soteleyin.Tavukları kuş başı doğrayın, tencereye alarak arada karıştırarak pişirin.Rengi dönüp suyunu saldığında yemeklik doğranmış soğanı ekleyin.",
+      "url": "https://www.nefisyemektarifleri.com/tavuklu-sultan-kebabi-tarifi/"
+    },
+    {
+      "baslik": "Frappe",
+      "aciklama": "Frappé soğuk bir kahve türüdür. Üstü köpük kaplı olan bu ",
+      "malzemeler": [
+        "1,5 tatlı kaşığı nescafe",
+        "İstenilen miktarda şeker",
+        "4-5 tatlı kaşığı su",
+        "Soğuk süt",
+        "1-2 adet buz küp"
+      ],
+      "hazirlanis": "Frappé soğuk bir kahve türüdür. Üstü köpük kaplı olan bu soğuk kahve, hazır kahveden yapılır. İlk olarak 1957 yılında Selanik’te yapılmıştır. Hazırlanışında küçük değişiklikler yapılabilir. Tamamen su veya tamamen süt ile hazırlanabilir. Dondurma veya krema ilave edilerek servis yapılabilir.",
+      "resim": "4.jpg",
+      "url": "https://www.nefisyemektarifleri.com/video/frappe-nasil-yapilir/",
+      "id": "lHFaGln"
+    },
+    {
+      "baslik": "Airfryer Bütün Tavuk",
+      "aciklama": "4-6 Kişilik 10dk Hazırlık, 55dk Pişirme. Ye gardaş ye ",
+      "malzemeler": [
+        "1 adet bütün tavuk",
+        "1 yemek kaşığı yoğurt",
+        "1 yemek kaşığı domates salçası",
+        "1 yemek kaşığı zeytinyağı",
+        "1 çay kaşığı tuz"
+      ],
+      "hazirlanis": "Aifryer’da bütün tavuğun sosu için uygun bir karıştırma kabına salça, zeytinyağı, yoğurt, kırmızı biber, karabiber ve tuzu ekleyerek karıştıralım.\nArdından bütün tavuğun her yerine fırça yardımı ile hazırladığımız sostan sürelim.\nTavuğun butlarını derisine geçirelim. Kanatlarını da kürdanla sabitleyelim.\nDaha sonra tavuğumuzu airfryer haznesine alalım ve gıda termometresini tavuğa batıralım.\nHazneyi kapatalım ve termometrenin diğer ucunu ekranın sol altında bulunan girişe takalım.",
+      "resim": "5.jpg",
+      "url": "https://www.nefisyemektarifleri.com/video/airfryer-butun-tavuk/",
+      "id": "CuWFfUF"
+    },
+    {
+      "baslik": "Sarma",
+      "aciklama": "Sarma yemek isteyen gelsin bura :)",
+      "malzemeler": [
+        "prinç",
+        "yaprak"
+      ],
+      "hazirlanis": "uzun uzun anlatamam şimdi",
+      "resim": "6.jpg",
+      "url": "https://www.nefisyemektarifleri.com/video/zeytinyagli-yaprak-sarmasi-tarifi/",
+      "id": "XXc1VeM"
+    }
+  ]
 }

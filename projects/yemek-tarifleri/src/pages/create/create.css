@@ -1,0 +1,97 @@
+.CreateContainer
+{
+    width: 50rem;
+    margin: auto;
+    margin-top: 3.3rem;
+    background-color:  #F5F7F8;
+    padding: 2rem 0 1rem 0;
+    border-radius: 1.1rem;
+    box-shadow: 0 0 1rem #495E57;
+}
+
+.CreateContainer form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.CreateContainer form h2
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.CreateContainer form div
+{
+    width: 85%;
+}
+
+.CreateContainer form div label
+{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+
+.CreateContainer form :nth-child(4) div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateContainer form :nth-child(4) label
+{
+    margin-bottom: 0;
+}
+
+.CreateContainer form :nth-child(4) div
+{
+    width: 100%;
+}
+
+.CreateContainer form :nth-child(4) div button
+{
+    margin: 0;
+    padding: 0.08rem 1.1rem;
+    margin-left: 0.3rem;
+}
+
+.CreateContainer form div input
+{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+.CreateContainer form div textarea
+{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.CreateContainer form button 
+{
+    text-decoration: none;
+    color: #F5F7F8;
+    font-size: 0.9rem;
+    padding: 0.3rem 1.1rem;
+    background-color: #495E57;
+    font-family: 'Poppins', sans-serif;
+    border: 0.14rem solid #495E57;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    margin-top: 1rem;
+}
+
+.CreateContainer form button:hover 
+{
+    border: 0.14rem solid #495E57;
+    background-color: inherit;
+    color: #495E57;
+}
+

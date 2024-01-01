@@ -1,0 +1,14 @@
+.searchCard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchCard h2
+{
+    margin-top: 1rem;
+    border-bottom: solid 0.05rem black;
+    padding: 0 4rem 1rem 4rem;
+}

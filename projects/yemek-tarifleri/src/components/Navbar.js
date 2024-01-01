@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from "react-router-dom";
 import './Navbar.css';
+import SearchBar from './SearchBar';
 
 
 function Navbar() {
@@ -10,6 +11,7 @@ function Navbar() {
         <i class="fa-solid fa-cookie-bite"></i>
         <Link to="/">Yemek Tarifleri</Link>
       </div>
+      <SearchBar></SearchBar>
       <div className="NavLink-Container">
         <ul>
           <li>

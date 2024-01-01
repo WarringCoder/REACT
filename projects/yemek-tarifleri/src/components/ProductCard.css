@@ -13,6 +13,9 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
 }
 
 .card-container
@@ -23,10 +26,10 @@
     align-items: center;
     width: 16rem;
     height: 26rem;
-    margin-top: 4rem;
     background-color: #F5F7F8;
     box-shadow: 0 0 1rem  #45474B;
     border-radius: 0.4rem;
+    margin-top: 2rem;
 }
 
 .card-container :nth-child(1) img
