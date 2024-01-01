@@ -1,18 +1,13 @@
-import { useEffect, useState } from "react";
+import React from "react";
 import { useParams} from "react-router-dom";
+import useFetch from "../../Hooks/useFetch";
 import "./Details.css";
 
 function Details() {
   const {id} = useParams();
-  const [tarif, setTarif] = useState(null);
   const url = "http://localhost:3000/tarifler/" + id;
+  const {data: tarif} = useFetch(url);
 
-  useEffect(() =>
-  {
-    fetch(url)
-      .then(res => res.json())
-      .then(data => setTarif(data))
-  }, [url])
   return (
     <div className="container row mt-3">
       {tarif && (
